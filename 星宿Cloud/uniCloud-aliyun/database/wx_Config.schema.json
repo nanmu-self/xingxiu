@@ -1,0 +1,69 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"categ_style": {
+			"bsonType": "bool",
+			"defaultValue": true,
+			"description": "分类样式true是一级菜单"
+		},
+		"share_title": {
+			"bsonType": "string",
+			"description": "分享标题"
+		},
+		"share_image":{
+			"bsonType": "string",
+			"description": "分享图片"
+		},
+		"public_follow": {
+			"bsonType": "string",
+			"description": "公众号二维码"
+		},
+		"public_logo": {
+			"bsonType": "string",
+			"description": "公众号logo"
+		},
+		"public_name": {
+			"bsonType": "string",
+			"description": "公众号名"
+		},
+		"wx_video": {
+			"bsonType": "string",
+			"description": "视频广告"
+		},
+		"wx_chaping": {
+			"bsonType": "string",
+			"description": "插屏广告"
+		},
+		"wx_jili_video": {
+			"bsonType": "string",
+			"description": "激励广告"
+		},
+		"notice" :{
+			"bsonType": "string",
+			"description": "公告内容"
+		},
+		"popupMsg": {
+			"bsonType": "string",
+			"description": "弹窗内容"
+		},
+		"nmLogo": {
+			"bsonType": "string",
+			"description": "小程序logo"
+		},
+		"indexStyle": {
+			"bsonType": "int",
+			"description": "首页图文样式1.扁平图标(默认值)，2.大图模式，3.双排列表"
+		}
+	}
+}

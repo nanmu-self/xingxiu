@@ -1,0 +1,33 @@
+// 文章和分类中间表
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"article_id": {
+			"description": "文章表id",
+			"bsonType": "string",
+			"foreignKey": "articleContent._id"
+		},
+		"category_id": {
+			"description": "分类表id",
+			"bsonType": "string",
+			"foreignKey": "categories._id"
+		},
+		"releaseTime": {
+			"defaultValue": "关联时间",
+			"bsonType": "timestamp",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+	}
+}

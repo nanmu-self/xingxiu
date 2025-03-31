@@ -1,0 +1,40 @@
+// 金刚位和热门文章
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"styleType": {
+			"bsonType": "bool",
+			"description": "true是金刚区，false是热门文章"
+		},
+		"wzType": {
+			"bsonType": "string",
+			"description": "xs_wxvideo_activity视频号"
+		},
+		"title": {
+			"bsonType": "string",
+			"description": "标题"
+		},
+		"appid": {
+			"bsonType": "string",
+			"description": "appid"
+		},
+		"route": {
+			"bsonType": "string",
+			"description": "跳转路径"
+		},
+		"himg": {
+			"bsonType": "string",
+			"description": "图片"
+		}
+	}
+}

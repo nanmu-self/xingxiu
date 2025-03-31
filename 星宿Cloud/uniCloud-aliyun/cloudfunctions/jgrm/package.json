@@ -1,0 +1,7 @@
+{
+  "name": "jgrm",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

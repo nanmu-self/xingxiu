@@ -1,0 +1,11 @@
+<svg id="icon_压缩" data-name="icon/压缩" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="icon_压缩-2" data-name="icon/压缩">
+    <g id="icon_压缩-3" data-name="icon/压缩">
+      <rect id="矩形" width="120" height="120" rx="30" fill="#55c7f7"/>
+      <rect id="矩形备份_4" data-name="矩形备份 4" width="120" height="40" transform="translate(0 40)" fill="#f95f5d"/>
+      <path id="矩形备份" d="M0,0H120a0,0,0,0,1,0,0V11.765A28.235,28.235,0,0,1,91.765,40H28.235A28.235,28.235,0,0,1,0,11.765V0A0,0,0,0,1,0,0Z" transform="translate(0 80)" fill="#7ecf3b"/>
+      <rect id="矩形-2" data-name="矩形" width="29.231" height="120" transform="translate(44.615)" fill="#fdaf42"/>
+      <rect id="矩形-3" data-name="矩形" width="29.231" height="29.231" rx="14.615" transform="translate(44.615 44.615)" fill="none" stroke="#fff" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="14.118"/>
+    </g>
+  </g>
+</svg>

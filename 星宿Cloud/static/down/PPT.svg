@@ -1,0 +1,11 @@
+<svg id="icon_PPT" data-name="icon/PPT" xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <g id="icon_PPT-2" data-name="icon/PPT">
+    <g id="icon_PPT-3" data-name="icon/PPT">
+      <rect id="矩形" width="120" height="120" rx="30" fill="#fe9743"/>
+      <rect id="矩形-2" data-name="矩形" width="8.462" height="49.231" rx="4.031" transform="translate(43.077 35.385)" fill="#fff"/>
+      <path id="路径" d="M0,21.538c6.8,0,12.308-4.822,12.308-10.769S6.8,0,0,0" transform="translate(64.615 39.615)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="8.462"/>
+      <rect id="矩形-3" data-name="矩形" width="18.462" height="8.462" transform="translate(46.923 56.923)" fill="#fff"/>
+      <rect id="矩形-4" data-name="矩形" width="18.462" height="8.462" transform="translate(46.923 35.385)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

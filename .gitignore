@@ -1,0 +1,28 @@
+# 忽略编译生成的文件
+unpackage/
+dist/
+
+# 忽略HBuilderX配置文件
+.hbuilderx/
+
+# 忽略node模块
+node_modules/
+
+# 忽略本地配置文件
+local.*.js
+*.local.js
+
+# 忽略日志文件
+*.log
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器配置
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln

@@ -1,0 +1,101 @@
+// 文章表
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"reatType": {
+			"description": "阅读方式",
+			"bsonType": "int"
+		},
+		"hbUrl": {
+			"description": "红包url",
+			"bsonType": "string"
+		},
+		"gzhUrl": {
+			"description": "公众号url",
+			"bsonType": "string"
+		},
+		"notice": {
+			"description": "文章公告弹窗",
+			"bsonType": "string"
+		},
+		"videpIf": {
+			"description": "是否激励视频阅读",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"recDownVideo": {
+			"description": "是否激励视频下载",
+			"bsonType": "bool",
+			"defaultValue": false
+		},
+		"downTitle": {
+			"description": "资源名称",
+			"bsonType": "string"
+		},
+		"downUrl": {
+			"description": "网盘地址",
+			"bsonType": "string"
+		},
+		"downKey": {
+			"description": "提取码",
+			"bsonType": "string"
+		},
+		"wxvideoId": {
+			"description": "视频号id",
+			"bsonType": "string"
+		},
+		"wxvideoFeedid": {
+			"description": "视频号feedId",
+			"bsonType": "string"
+		},
+		"blblAv": {
+			"description": "B站视频AV号",
+			"bsonType": "string"
+		},
+		"articleTitle": {
+			"description": "文章标题",
+			"bsonType": "string"
+		},
+		"content": {
+			"description": "文章内容",
+			"bsonType": "string"
+		},
+		"articleClass": {
+			"description": "文章分类",
+			"bsonType": "array"
+		},
+		"articleLabel": {
+			"description": "文章标签",
+			"bsonType": "array"
+
+		},
+		"articleHeaderImageUrl": {
+			"description": "文章头图",
+			"bsonType": "string"
+		},
+		"set_top": {
+			"bsonType": "bool",
+			"description": "置顶，会在首页显示",
+			"defaultValue": false
+		},
+		"releaseTime": {
+			"defaultValue": "发布时间",
+			"bsonType": "timestamp",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+		}
+
+
+	}
+}

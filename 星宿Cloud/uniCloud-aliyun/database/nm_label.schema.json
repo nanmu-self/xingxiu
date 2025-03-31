@@ -1,0 +1,29 @@
+// 标签表
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"name":{
+			"bsonType": "string",
+			"description": "标签名"
+		},
+		"described":{
+			"bsonType": "string",
+			"description": "标签描述"
+		},
+		"set_top":{
+			"bsonType": "bool",
+			"description": "置顶，会在首页显示",
+			"defaultValue":false
+		}
+	}
+}
